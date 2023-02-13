@@ -1,6 +1,11 @@
 # cnnLSV
 cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network
 
+<h1>
+<p align="center">
+  <img src="logo.png" alt="Logo" width="600" height="150">
+</h1>
+
 ---
 ## Installation
 ### Clone
