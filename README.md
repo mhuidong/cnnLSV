@@ -16,7 +16,7 @@ python3, cv2, numpy, torch, torchvision, pysam, cigar
 ---
 ## Usage
 ### Detecting SVs
-	python cnnLSV.py <sorted.bam> <initial.vcf> <filtered.vcf>
+	python cnnLSV.py <sorted.bam> <initial.vcf> <filtered.vcf> --dataset <real/sim> --model <simmodel.pt/realmodel.pt>
 ### [OPTIONAL] Removing Redundant information
 #### CnnLSV outputs the callset merged of several callers. This means that one SV may be detected by several callers. You can use the foolowing command to obtain unique result.
 	python cnnLSV_rmrd.py <multi.vcf> <unique.vcf>
