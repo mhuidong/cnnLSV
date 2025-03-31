@@ -14,7 +14,7 @@ cnnLSV: detecting structural variants by encoding long-read alignment informatio
 python3, cv2, numpy, torch, torchvision, pysam, cigar
 
 ---
-## Usage
+# Usage
 ### Detecting SVs
 	python cnnLSV.py <sorted.bam> <initial.vcf> <filtered.vcf> --dataset <real/sim> --model <simmodel.pt/realmodel.pt>
 ### [OPTIONAL] Removing Redundant information
@@ -22,7 +22,7 @@ python3, cv2, numpy, torch, torchvision, pysam, cigar
 	python cnnLSV_rmrd.py <multi.vcf> <unique.vcf>
 ---
 
-## Datasets
+# Datasets
 HG00512, HG00513, HG00514, HG00731, HG00732, HG00733, NA19238, NA19239 and NA19240 datasets can be downloaded from:
 
 http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20160905_smithm_pacbio_aligns/
@@ -30,7 +30,3 @@ http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/wor
 HG002 CLR and HG002 CCS datasets can be downloaded from:
 
 https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/
-
-## Contact
-huidongma@st.gxu.edu.cn
-
