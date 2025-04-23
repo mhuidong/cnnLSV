@@ -2,7 +2,7 @@
 <h1>[BMC Bioinformatics '23] cnnLSV: detecting structural variants by encoding long-read alignment information and convolutional neural network</h1>
 </div>
 
-## Installation
+# Installation
 ### Clone
 ```
 git clone https://github.com/mhuidong/cnnLSV.git
