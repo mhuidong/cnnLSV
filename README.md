@@ -27,3 +27,6 @@ http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/wor
 
 HG002 CLR and HG002 CCS datasets can be downloaded from:  
 https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/
+
+# Contact
+Email: mahd@nbjl.nankai.edu.cn
